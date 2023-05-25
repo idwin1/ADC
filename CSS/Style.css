@@ -1,0 +1,122 @@
+body{
+    background-image: url(../MEDIA/IMG/fondo.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* aqui esta lo de la barra de navegacion */
+.barra{
+    /* background-color: blue; */
+    width: 95%;
+    height: 100px;
+    margin: 20px;
+    border: #eca023 solid;
+    border-radius: 15px;
+    text-align: justify;
+}
+nav {
+    float: left;
+    width: 105%;
+}
+
+nav ul {
+    list-style: none;
+    overflow: hidden; 
+}
+
+nav ul li {
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;;
+    font-size: 20px;
+}
+
+nav ul li a {
+    display: block; 
+    padding: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li:hover {
+    background: #eca023;
+}
+
+/* aqui comienza la seccion del div Cuepo_inicio */
+
+.cuerpo_inicio{
+    /* background-color: #eca023; */
+    width: 95%;
+    height: 250px;
+    margin: 25px;
+}
+p.Titulo_inicio {
+    font-size: 50px;
+    text-align: center;
+    margin: 2vw;
+    font-family: 'DotGothic16', sans-serif;
+    color: #fff;
+    margin:5px;
+    filter: drop-shadow(10px 5px rgba(206, 80, 80, 0.21));
+}
+
+.definicion{
+    line-height: 2;
+    font-family: 'DotGothic16', sans-serif;
+    text-align: justify;
+    color: #fff;
+}
+.contenedor_image{
+    width: 95%;
+    height: 300px;
+    text-align: center;
+    padding: 10px;
+    
+}
+.imagen_inicio{
+    border-radius: 15px;
+    width: 350px;
+    height: 250px;
+    padding: 10px;
+    margin: 10px;
+}
+
+/* inicia el de Unidad 1 */
+
+div.flex-TextContainer {
+    flex-direction: column;
+    margin-bottom: 0;
+    margin-top: 0;
+    color: #fff;
+    width: 95%;
+    height: auto;
+    margin: 10px;
+}
+
+div.info {
+    display: none;
+    margin-top: 1vw;
+    margin-bottom: 0;
+    max-height: 43vw;
+    min-width: 70%;
+    background: rgba(0, 0, 0, 0.182);
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    border-radius: 10px;
+    margin: 15px;
+}
+
+h2{
+    line-height: 2;
+    font-family: 'DotGothic16', sans-serif;
+    text-align: justify;
+    color: #fff;
+    font-size: 5vh;
+}
+
+.contenido{
+    line-height: 2;
+    font-family: 'DotGothic16', sans-serif;
+    text-align: justify;
+    color: #fff;
+    font-size: 3vh;
+}
