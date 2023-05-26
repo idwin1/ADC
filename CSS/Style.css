@@ -24,7 +24,7 @@ nav ul {
     overflow: hidden; 
 }
 
-nav ul li {
+nav ul li{
     float: left;
     font-family: Arial, Helvetica, sans-serif;;
     font-size: 20px;
@@ -37,10 +37,24 @@ nav ul li a {
     text-decoration: none;
 }
 
-nav ul li:hover {
+nav ul li:hover>a {
     background: #eca023;
 }
 
+nav ul li ul{
+    color: #fff;
+    display: none;
+    background-color: #ec9f238e;
+}
+nav ul li ul li {
+    float: none;
+}
+nav ul li:hover >ul{
+    display:block;
+}
+.submenu li a{
+    font-size: 2vh;
+}
 /* aqui comienza la seccion del div Cuepo_inicio */
 
 .cuerpo_inicio{
